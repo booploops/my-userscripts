@@ -1,7 +1,7 @@
 # my-userscripts
 Just some user scripts I've made
 
-# Apple Music Web Player Notifications
+# ![](https://i.imgur.com/g5UChul.png =64x64) Apple Music Web Player Notifications
 [Install Apple Music Web Player Notifications](https://github.com/booploops/my-userscripts/raw/master/applemusic-notifications.user.js)
 
 Simple script that adds now playing notifications to Apple Music's web player with configuration
