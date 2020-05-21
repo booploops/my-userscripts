@@ -3,6 +3,7 @@ Just some user scripts I've made
 
 # Apple Music Web Player Notifications
 [Install Apple Music Web Player Notifications](https://github.com/booploops/my-userscripts/raw/master/applemusic-notifications.user.js)
+
 Simple script that adds now playing notifications to Apple Music's web player with configuration
 
         MediaSessionArtworkSize: 1,         // 0: 96x96, 1: 128x128, 2: 192x192, 3: 256x256, 4: 384x384, 5:512x512
