@@ -13,3 +13,6 @@ Simple script that adds now playing notifications to Apple Music's web player wi
         ForceTimeoutDuration: 2500          // How long until the notification times out (in ms)
         
 On Chrome and Chromium Edge the script will use navigator.mediaSession for it's metadata by default.  On other browsers like Firefox it will use MusicKitJS' nowPlayingItem metadata.
+
+![](https://i.imgur.com/ZRuIX5i.png)
+![](https://i.imgur.com/3gmozOe.png)
