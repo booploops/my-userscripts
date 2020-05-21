@@ -26,7 +26,7 @@
                     if (lasttrack != navigator.mediaSession.metadata["title"]) {
                         lasttrack = navigator.mediaSession.metadata["title"]
                         let artwork = navigator.mediaSession.metadata["artwork"][NConfig.MediaSessionArtworkSize]["src"] ? navigator.mediaSession.metadata["artwork"][NConfig.MediaSessionArtworkSize]["src"] : "https://apps.mzstatic.com/content/static-config/android/images/android_am_192.png";
-                        let notify = new Notification(document.title, { body: `${navigator.mediaSession.metadata["title"]}\n${navigator.mediaSession.metadata["album"]}\n${navigator.mediaSession.metadata["artist"]}`, icon: artwork, silent: true })
+                        let notify = new Notification("Apple Music", { body: `${navigator.mediaSession.metadata["title"]}\n${navigator.mediaSession.metadata["album"]}\n${navigator.mediaSession.metadata["artist"]}`, icon: artwork, silent: true })
                         if (NConfig.ForceTimeout) {
                             setTimeout(function () {
                                 notify.close()
@@ -38,7 +38,7 @@
                 if (lasttrack != music.nowPlayingItem["title"]) {
                     lasttrack = music.nowPlayingItem["title"]
                     let artwork = music.nowPlayingItem.attributes.artwork.url.replace("{w}", NConfig.MusicKitArtworkRes[0]).replace("{h}", NConfig.MusicKitArtworkRes[1]) ? music.nowPlayingItem.attributes.artwork.url.replace("{w}", NConfig.MusicKitArtworkRes[0]).replace("{h}", NConfig.MusicKitArtworkRes[1]) : "https://apps.mzstatic.com/content/static-config/android/images/android_am_192.png";
-                    let notify = new Notification(document.title, { body: `${music.nowPlayingItem["title"]}\n${music.nowPlayingItem["albumName"]}\n${music.nowPlayingItem["artistName"]}`, icon: artwork, silent: true })
+                    let notify = new Notification("Apple Music", { body: `${music.nowPlayingItem["title"]}\n${music.nowPlayingItem["albumName"]}\n${music.nowPlayingItem["artistName"]}`, icon: artwork, silent: true })
                     if (NConfig.ForceTimeout) {
                         setTimeout(function () {
                             notify.close()
