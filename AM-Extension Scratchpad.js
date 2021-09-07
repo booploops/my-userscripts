@@ -510,6 +510,3 @@ document.addEventListener('keydown', function (event) {
 })
 
 _amOT.init()
-
-// !!! migrate notifications user script
-// https://github.com/booploops/my-userscripts/blob/master/AppleMusic-Notifications.md
