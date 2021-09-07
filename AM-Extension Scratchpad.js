@@ -1,3 +1,6 @@
+// CTRL + 1 for visualizer
+// CTRL + 2 for EQ
+
 var AMEx = {
     context: new AudioContext(),
     result: {},
