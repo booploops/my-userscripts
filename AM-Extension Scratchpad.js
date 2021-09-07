@@ -144,7 +144,7 @@ var _amOT = {
         content.appendChild(document.createElement("br"))
         content.appendChild(fullscreenBtn)
         _amOT.popup_generic({
-            title: "Butterchurn Viz",
+            title: "Butterchurn Visualizer",
             content: content,
             transparentBg: true,
             backdropStyle: {
